@@ -1,0 +1,47 @@
+# Node modules (default behavior)
+node_modules/
+
+# Build output directories
+build/
+dist/
+
+# Static assets
+public/
+
+# Logs and temporary files
+*.log
+*.tmp
+coverage/
+
+# Environment files
+.env
+.env.* # Matches .env.local, .env.production, etc.
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Next.js-specific
+.next/
+
+# Storybook output
+storybook-static/
+
+# Test and mock files (if not needed for linting)
+__snapshots__/
+__mocks__/
+
+# Other configurations or generated files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+
+docs
+logs
+next.config.mjs
+tailwind.config.js

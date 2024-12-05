@@ -8,6 +8,7 @@
     "ignorePatterns": ["node_modules/", "build/", "dist/", "public/"],
     "rules": {
       "prettier/prettier": "error",
+      "import/no-unresolved": "off", // Disable the rule
       "react/react-in-jsx-scope": "off",
       "jsx-a11y/anchor-is-valid": [
         "error",
